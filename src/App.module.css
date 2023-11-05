@@ -1,0 +1,110 @@
+.wrapper {
+  max-width: 46rem;
+  margin: -1.68rem auto 0;
+  padding: 0 1rem;
+}
+
+.newTodo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newTodo > textarea {
+  width: 100%;
+  background: var(--gray-500);
+  color: var(--gray-100);
+  height: 3.375rem;
+  padding: 1rem;
+  line-height: 1.4;
+  border-radius: 8px;
+  border: 0;
+  resize: none;
+  margin-right: 0.5rem;
+}
+
+.newTodo > button {
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  width: 90px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 8px;
+  border: 0;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  font-weight: bold;
+}
+
+.newTodo > button > span {
+  margin-right: 0.1rem;
+}
+
+.tarefaListWrapper {
+  margin-top: 4rem;
+}
+
+.tarefaHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.counter {
+  background: var(--gray-400);
+  color: var(--gray-100);
+  border: 0;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.createdTask {
+  display: flex;
+  align-items: flex-end;
+}
+
+.createdTask strong {
+  color: var(--blue);
+}
+
+.completedTask {
+  display: flex;
+  align-items: flex-end;
+}
+
+.completedTask strong {
+  color: var(--purple);
+}
+
+.tarefaListEmpty {
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 5rem 1.5rem;
+
+  border-top: 1px solid var(--gray-400);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarefaListEmpty strong {
+  margin-top: 1rem;
+  line-height: 1.4;
+}
+
+.tarefaListFilled {
+  width: 100%;
+  margin-top: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+}
